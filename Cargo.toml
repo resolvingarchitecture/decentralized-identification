@@ -1,0 +1,25 @@
+[package]
+name = "decentralized_id"
+version = "0.0.1"
+authors = ["Brian Taylor <brian@resolvingarchitecture.io>"]
+license-file = "LICENSE"
+edition = "2018"
+description = "Decentralized Identification"
+homepage = "http://resolvingarchitecture.io"
+documentation = "https://github.com/resolvingarchitecture/decentralized-identification"
+repository = "https://github.com/resolvingarchitecture/decentralized-identification"
+publish = true
+readme = "README.md"
+keywords = ["did","identification","self-sovereign"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.8"
+failure = "0.1.5"
+exitfailure = "0.5.1"
+pgp = "0.4.1"
+
+[dev-dependencies]
+assert_cmd = "0.10"

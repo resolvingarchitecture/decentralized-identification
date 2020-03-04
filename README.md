@@ -8,6 +8,6 @@
 5. Vouch Identity Attribute
 6. Rescind Identity Attribute
 
-[Crates.io](https://crates.io/crates/did)
+[Crates.io](https://crates.io/crates/decentralized_id)
 
 !! WIP - not stable until version 1.0 !!
